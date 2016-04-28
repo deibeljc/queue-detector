@@ -1,0 +1,22 @@
+{
+  "name": "queue-detector",
+  "version": "1.0.0",
+  "description": "Will detect Queue of league teams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deibeljc/queue-detector.git"
+  },
+  "author": "Jon Deibel, Ryan Finley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deibeljc/queue-detector/issues"
+  },
+  "homepage": "https://github.com/deibeljc/queue-detector#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.7"
+  }
+}
