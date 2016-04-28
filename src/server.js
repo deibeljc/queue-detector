@@ -1,4 +1,7 @@
-import getConfig from "./utils/configParser"
-const config = getConfig();
+import GameAPI from './api/game'
+import Promise from 'promise';
 
-console.log(config.RIOT_API);
+let gameApi = new GameAPI();
+gameApi.getRecentGames(21428290, 'na').then((response) => {
+    console.log(response);
+});
